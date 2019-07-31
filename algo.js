@@ -21,8 +21,8 @@ Create a function that returns an array containing all of the seat numbers.
 */
 function theatre(rows, columns) {
 let theaterArray = new Array();
-for (let i=0; i<= rows; i++) {
-    for (let j=0; j<= columns;j++){
+for (let i=1; i<= rows; i++) {
+    for (let j=1; j<= columns;j++){
         theaterArray.push(i + "-" + j);
     }
 }
