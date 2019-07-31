@@ -18,3 +18,15 @@ In the end, the list should look like this:
 
 Create a function that returns an array containing all of the seat numbers.
 */
+
+function matrix(column, row) {
+  let matrix_array = [];
+  for (let i = 0; i < column; i++) {
+    matrix_array[i] = [];
+    for (let j = 0; j < row; j++) {
+      matrix_array[i][j] = i + 1 + "-" + (j + 1);
+    }
+  }
+  return console.log(matrix_array);
+}
+matrix(3, 4);
