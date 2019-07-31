@@ -18,3 +18,17 @@ In the end, the list should look like this:
 
 Create a function that returns an array containing all of the seat numbers.
 */
+
+function generateSeatsList (col, row) {
+    const seatsList =[]
+
+    for (let c=1; c<=col; c++){
+        for(let r=1; r<=row; r++){
+            seatsList.push(c+'-'+r)
+        }
+    }
+    return seatsList
+}
+
+console.log(generateSeatsList(2,3))
+
