@@ -1,3 +1,4 @@
+console.clear();
 /*
 A theatre employee wants a list of all the seats from the main room.
 
@@ -18,3 +19,15 @@ In the end, the list should look like this:
 
 Create a function that returns an array containing all of the seat numbers.
 */
+function theatre(rows, columns) {
+let theaterArray = new Array();
+for (let i=0; i<= rows; i++) {
+    for (let j=0; j<= columns;j++){
+        theaterArray.push(i + "-" + j);
+    }
+}
+    return theaterArray;
+}
+theatre(26,100).forEach(element => {
+    console.log(element);
+});
