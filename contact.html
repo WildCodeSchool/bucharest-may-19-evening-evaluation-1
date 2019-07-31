@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1, shrink-to-fit=no"
+		/>
+		<link
+			rel="stylesheet"
+			href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+			integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+			crossorigin="anonymous"
+		/>
+		<link
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css"
+			rel="stylesheet"
+		/>
+		<link
+			href="https://fonts.googleapis.com/css?family=Lato&display=swap"
+			rel="stylesheet"
+		/>
+		<link rel="stylesheet" href="style.css" />
+
+		<title>Homepage Lavinia Chiburte</title>
+	</head>
+	<body>
+		<ul class="nav nav-tabs" id="myTab" role="tablist">
+			<li class="nav-item">
+				<a
+					class="nav-link active"
+					id="home-tab"
+					data-toggle="tab"
+					href="homepage.html"
+					role="tab"
+					aria-controls="home"
+					aria-selected="true"
+					>Home</a
+				>
+			</li>
+			<li class="nav-item">
+				<a
+					class="nav-link"
+					id="contact-tab"
+					data-toggle="tab"
+					href="#contact"
+					role="tab"
+					aria-controls="contact"
+					aria-selected="false"
+					>Contact</a
+				>
+			</li>
+		</ul>
+
+		<article class="Contact">
+			<h2 class="contactTitle">Send a message</h2>
+
+			<form
+				method="POST"
+				action="https://formspree.io/lavinia.chiburte@gmail.com"
+			>
+				<div class="formInput">
+					<input
+						class="textContact"
+						type="email"
+						name="email"
+						placeholder="Email"
+					/>
+				</div>
+
+				<div class="formInput">
+					<input
+						class="textContact"
+						type="text"
+						name="text"
+						placeholder="Subject"
+					/>
+				</div>
+
+				<div class="formInput">
+					<textarea
+						type="text"
+						class="messageContact"
+						placeholder="Message"
+						value=""
+					></textarea>
+				</div>
+
+				<div class="formInput">
+					<input class="submitContact" type="submit" value="Send" />
+				</div>
+			</form>
+		</article>
+		<div class="tab-content" id="myTabContent">
+			<div
+				class="tab-pane fade show active"
+				id="home"
+				role="tabpanel"
+				aria-labelledby="home-tab"
+			>
+				...
+			</div>
+			<div
+				class="tab-pane fade"
+				id="profile"
+				role="tabpanel"
+				aria-labelledby="profile-tab"
+			>
+				...
+			</div>
+			<div
+				class="tab-pane fade"
+				id="contact"
+				role="tabpanel"
+				aria-labelledby="contact-tab"
+			>
+				...
+			</div>
+		</div>
+	</body>
+</html>
