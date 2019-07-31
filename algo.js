@@ -26,7 +26,7 @@ function theatre (i,x) {
     for(i=1;i<27;i++)
 for(x=1;x<101;x++){ 
 
-  seats.push(i,x)}
+  seats.push([i,x])}
 console.log(seats)
 }
 
