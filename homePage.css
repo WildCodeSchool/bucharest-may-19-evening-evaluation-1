@@ -1,0 +1,68 @@
+body {
+  background-image: url("images/image1.jpeg");
+  overflow: hidden;
+  font-family: sans-serif;
+  padding: 0px;
+  background-color: turquoise;
+  background-repeat: no-repeat;
+  background-position: 99% center;
+}
+
+.header h1 {
+  position: absolute;
+  left: 35%;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-style: oblique;
+  font-size: 300%;
+  font-weight: normal;
+  color: rgb(190, 190, 207);
+  width: 50%;
+}
+
+@media screen and (max-width: 600px) {
+  .header h1 {
+    width: 100%;
+  }
+}
+
+.header .button {
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  color: black;
+  font-size: 26px;
+  padding: 16px 50px;
+  border: 20px;
+  cursor: pointer;
+  border-radius: 15px;
+  text-align: center;
+}
+
+.header .button:hover {
+  background-color: black;
+  color: white;
+}
+
+.header .button:active {
+  background-color: #656b65;
+  box-shadow: 0 8px #666;
+  transform: translate3d(4px);
+}
+
+.header {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+  grid-gap: 20px;
+  padding: 2px;
+}
+
+.header img {
+  position: relative;
+  width: 100px;
+  height: 100px;
+  background: #555;
+  top: 10%;
+}
