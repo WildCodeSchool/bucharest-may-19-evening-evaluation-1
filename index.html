@@ -5,19 +5,95 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Joao page</title>
     <link rel="stylesheet" href="page.css">
 </head>
 <body>
     <div class="page-header"><h1>João Page</h1></div>
     
-    <div class="jumbotron">
-    <img src='images/foto passe.jpg' alt= 'Joao'>
+    
+    <div class="page">
+    <div class= "row">
+    <div class="column">
+    <div class="col-sm-4" style="background: #0F2557">
+    <img src='images/foto.jpg' alt= 'Joao' style="width:150px">
+    <h2>Hello, my name is João.<br> I am fascinated with web development, learning something new everyday. </h2>
+</div>
+</div>
+<div class="column">
+<div class="col-sm-4" style="background:#1F2179 ">
+    
+    <h2>You can find me on:</h3>
+    <a href = 'https://github.com/JoaoFSerra' class="fa fa-github"></a>
+<a href = 'https://www.instagram.com/joaoffsx'class="fa fa-instagram"></a>
 
-    <h2>Hello, I am newbie in IT programming learning web development. </h2>
-    <h3>You can find me on:</h3>
-    <a href = 'https://github.com/JoaoFSerra'>Github</a>
-<a href = 'https://www.instagram.com/joaoffsx'>Instagram</a>
     </div>
+    </div>
+    <div class="column">
+<div class="col-sm-4" style="background:#4B9FE1">
+<section class="resume-section p-4 p-lg-5 text-center" id="contact">
+        <div class="my-auto">
+          <h2 class="mb-4"> Contact Information </h2>
+
+          <ul class="fa-ul mb-4 ml-0">
+        
+            </li>
+            
+              
+            <li>
+            <span class="glyphicon glyphicon-globe" aria-hidden="true"></span>
+              <i class="fas fa-map-marker-alt mr-2 contact-icons"></i>Portugal/Romania
+            </li>
+          </ul>
+
+          <p>
+            Leave your message below and I will be back to you as soon as
+            possible.
+          </p>
+
+          <form
+            class="contact-form d-flex flex-column align-items-center"
+            action="https://formspree.io/email@domain.tlds"
+            method="POST"
+          >
+            <div class="form-group w-75">
+              <input
+                type="name"
+                class="form-control"
+                placeholder="Name"
+                name="name"
+                required
+              />
+            </div>
+            <div class="form-group w-75">
+              <input
+                type="email"
+                class="form-control"
+                placeholder="Email"
+                name="name"
+                required
+              />
+            </div>
+
+            <div class="form-group w-75">
+              <textarea
+                class="form-control"
+                type="text"
+                placeholder="Message"
+                rows="7"
+                name="name"
+                required
+              ></textarea>
+            </div>
+
+            <button type="submit" class="btn btn-submit btn-info w-75">Submit</button>
+          </form>
+        </div>
+      </section>
+
+
+    </div>
+    <div>
 </body>
 </html>

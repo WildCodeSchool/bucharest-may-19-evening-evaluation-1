@@ -1,16 +1,70 @@
+
+
 img {
-  width: 20%;
+  border-radius:50%;
+ 
 
 }
 
 .page-header {
-    background:black;
+    background:#150734;
+    display:flex;
+    padding:0px;
+    margin:0px;
+    width:100%;
 }
 
 h1 {
     color:white;
+    margin:2%;
 }
 
-.jumbotron {
-    background:rgb(243, 122, 122)
+
+
+body {
+    background:#150734;
+}
+
+
+
+
+.col-sm-4 {
+  height: 500px;
+  display:flex;
+  text-align:center;
+  justify-content:center;
+  align-items:center;
+  flex-direction:column;
+  
+}
+
+
+
+
+
+.fa {
+  padding: 20px;
+  font-size: 40px;
+  width: 30px;
+  
+
+}
+
+
+.fa:hover {
+  opacity: 0.7;
+}
+
+h2 {
+    color:#f2f2f2;
+    margin:5%;
+}
+
+
+form {
+    margin:2%;
+}
+
+.btn-info {
+background:#0F2557;
 }
