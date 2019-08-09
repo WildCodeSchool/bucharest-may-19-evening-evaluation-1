@@ -1,0 +1,124 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.menu-list,.socialMediaFooter{
+    display: flex;
+    justify-content: center;
+}
+.menu-list > li, .license > li{
+    list-style-type: none;
+    font-family: sans-serif;
+   font-weight: bold;
+   color: dimgray;
+   opacity: 0.8%;
+   margin: 5px;
+   flex-direction: row;
+   justify-content: space-around;
+  align-items: center;
+}
+a{
+    color:grey;
+    text-decoration: none;
+    margin: 20px;
+}
+
+a:hover{
+    color:crimson;
+   
+}
+
+.license{
+    position: fixed;
+    bottom: 0%;
+    display: flex;
+}
+
+.contact-class{
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+
+}
+
+ .label-fname, .label-lname, .label-subject{
+    margin: 5px 5px 5px 5px;
+    font-family: sans-serif;
+    width: 30vw;
+    font-weight: bold;
+    font-size:1vw;
+    color: rgb(27, 26, 26);
+} 
+.input-fname, .input-lname, .contact-class > textarea{
+    margin: 10px 10px 10px 10px;
+    font-family: sans-serif;
+    width: 30vw;
+    font-size:100%;
+    border-color: transparent;
+    background-color: gainsboro;
+    border-radius: 9px;
+    padding: 3px, 3px, 3px, 3px;
+}
+.input-fname:focus,
+.input-lname:focus,
+.contact-class > textarea:focus{
+    outline: none;
+}
+.input-fname[type='text']:focus,
+.input-lname:focus,
+.contact-class > textarea:focus{
+    background-color: gray;
+    color: white;
+}
+.title-contact{
+    font-size:2vw;
+    text-align: center;
+    color: grey;
+    font-family: sans-serif;
+    font-weight: bold;
+    margin-bottom: 5vw;
+    margin-top: 5vw;
+
+}
+.button {
+    background-color: crimson;
+    border-color: transparent;
+    opacity: 0.8;
+    width:100px;
+    height:30px;
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+    font-size:100%;
+    margin-bottom: 2vw;
+    margin-top: 1vw;
+}
+
+@media screen and (min-width: 300px) and (max-width: 767px) {
+    
+}
+.social-icons {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	width: 100vw;
+	height: 5vw;
+	margin: 0px;
+	padding: 0;
+}
+.social-icons > li {
+	list-style-type: none;
+	font-size: 4vh;
+	padding: 15px;
+}
+
+.social-icons > ul {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
