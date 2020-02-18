@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Compiled and minified CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Contact</title>
+  </head>
+  <body>
+    <main>
+      <nav>
+        <div class="nav-wrapper" id="nav-style">
+          <a href="#" class="brand-logo right">Nice Logo</a>
+          <ul class="left">
+            <li><a href="homepage.html">Home</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+      <section class="container center-align" id="container-form">
+        <div class="row">
+          <form
+            class="col s12"
+            action="https://formspree.io/xrgqnyaj"
+            method="POST"
+          >
+            <div class="row">
+              <div class="input-field col s6">
+                <input
+                  id="first_name"
+                  type="text"
+                  class="validate"
+                  name="name"
+                />
+                <label for="first_name">First Name</label>
+              </div>
+              <div class="input-field col s6">
+                <input id="last_name" type="text" class="validate" />
+                <label for="last_name">Last Name</label>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="input-field col s6">
+                <input type="text" class="validate" />
+                <label for="subject">Subject</label>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="input-field col s12">
+                <textarea
+                  id="textarea1"
+                  class="materialize-textarea"
+                ></textarea>
+                <label for="textarea1" name="message">Textarea</label>
+              </div>
+            </div>
+            <div class="row">
+              <div class="input-field col s6">
+                <input id="email" type="email" name="_replyto" />
+                <label for="email">Email</label>
+              </div>
+            </div>
+            <button
+              class="btn white waves-effect waves-light black-text"
+              type="submit"
+            >
+              Send
+            </button>
+          </form>
+        </div>
+      </section>
+    </main>
+  </body>
+
+  <!-- Compiled and minified JavaScript -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+</html>
